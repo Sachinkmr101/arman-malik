@@ -1,0 +1,24 @@
+.upload{
+  background:PINK;
+  margin: 5 auto;
+}
+
+.display{
+   border: medium dashed #7CFC00;
+   height: 277px;
+   width: 277px;
+   margin: 0 auto;
+ }
+
+.response{
+  color:red;
+}
+
+.Classify this image{
+  color:blue
+}
+
+h5{
+color:red;
+font-size:0.9rem;
+}

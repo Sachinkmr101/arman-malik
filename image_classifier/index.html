@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <title>Image Classification ML/DL</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <link rel='stylesheet' href="my_index.css">
+  </head>
+
+  <body>
+    <!-- set the background color and add header-->
+    <div style="background-color:lightblue">
+      <h1 style ="color:maroon">Minor Project 2</h1>
+    </div>
+  
+    <h3 class='upload'> Upload Your Image Here </h3>
+      <input type="file" id="file" accept="image/*" placeholder="Upload Your Image" onchange="loadFile(event)"/>
+    <div class="display">
+      <img id="img-output" height="277" width="277"/>
+    </div>
+    <div class="submit">
+
+      <input type="submit" value="Classify this image" id="classify"/>
+    </div>
+
+    <div class="response">
+      <!-- display prediction -->
+      <div id="answer"></div>
+    </div>
+
+
+    <script src="my_index.js"></script>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3>
+
+      <h5>Project develop on UPES minor project,
+        Develop this project under Dr.Keshav Sinha</h5>
+
+    </h3>
+    
+    <h5>Project developed by Narendra malik</h5>
+  </body>
+
+</html>
